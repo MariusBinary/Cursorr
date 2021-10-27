@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--Shadows-->
+    <DropShadowEffect x:Key="z-depth1" BlurRadius="5" ShadowDepth="1" Direction="270" Color="#FF17181A"/>
+    <DropShadowEffect x:Key="z-depth2" BlurRadius="8" ShadowDepth="2.5" Direction="270" Color="#FF17181A"/>
+    <DropShadowEffect x:Key="z-depth3" BlurRadius="14" ShadowDepth="4.5" Direction="270" Color="#FF17181A"/>
+    <DropShadowEffect x:Key="z-depth4" BlurRadius="25" ShadowDepth="8" Direction="270" Color="#FF17181A"/>
+    <DropShadowEffect x:Key="z-depth5" BlurRadius="35" ShadowDepth="13" Direction="270" Color="#FF17181A"/>
+
+    <!--Colors-->
+    <SolidColorBrush x:Key="App.Light.Background" Color="#FFFFFFFF" />
+    <SolidColorBrush x:Key="App.Light.Foreground" Color="#FFC4C4C4" />
+    <SolidColorBrush x:Key="Item.Background" Color="Transparent" />
+    <SolidColorBrush x:Key="Item.Border" Color="Transparent" />
+    <SolidColorBrush x:Key="Item.MouseOver.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="Item.MouseOver.Border" Color="#FF26A0DA"/>
+    <SolidColorBrush x:Key="Item.SelectedInactive.Background" Color="#3DDADADA"/>
+    <SolidColorBrush x:Key="Item.SelectedInactive.Border" Color="#FFDADADA"/>
+    <SolidColorBrush x:Key="Item.SelectedActive.Background" Color="#3D26A0DA"/>
+    <SolidColorBrush x:Key="Item.SelectedActive.Border" Color="#FF26A0DA"/>
+    <SolidColorBrush x:Key="ProgressBar.Progress" Color="#FF06B025"/>
+    <SolidColorBrush x:Key="ProgressBar.Background" Color="#FFE6E6E6"/>
+    <SolidColorBrush x:Key="ProgressBar.Border" Color="#FFBCBCBC"/>
+    <SolidColorBrush x:Key="App.NavigationBar.Background" Color="#FFE4E4E4"/>
+    <SolidColorBrush x:Key="App.NavigationBar.Section.Background" Color="#FFE6E6E6"/>
+    <Color x:Key="ControlForeground">#181818</Color>
+    <Color x:Key="ControlReadOnlyForeground">#383838</Color>
+    <Color x:Key="ControlDisabledForeground">#686868</Color>
+    <Color x:Key="ControlBackground">#f7f7f9</Color>
+    <Color x:Key="ControlHoveredBackground">#fafafc</Color>
+    <Color x:Key="ControlFocusedBackground">#fdfdff</Color>
+    <Color x:Key="ControlReadOnlyBackground">#f2f2f4</Color>
+    <Color x:Key="ControlDisabledBackground">#efeff2</Color>
+    <Color x:Key="ControlBorder">#383838</Color>
+    <Color x:Key="ControlHoveredBorder">#0BBAE0</Color>
+    <Color x:Key="ControlFocusedBorder">#000000</Color>
+    <Color x:Key="ControlReadOnlyBorder">#484848</Color>
+    <Color x:Key="ControlDisabledBorder">#787878</Color>
+    
+    <!--Converters-->
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+
+</ResourceDictionary>

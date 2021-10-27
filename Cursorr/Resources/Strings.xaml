@@ -1,0 +1,228 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Navigation Bar-->
+    <system:String x:Key="navbarProfile">PROFILE</system:String>
+    <system:String x:Key="navbarEffects">EFFECTS</system:String>
+    <system:String x:Key="navbarOthers">OTHERS</system:String>
+    
+    <!--Menu-->
+    <system:String x:Key="menuSettingsTitle">Settings</system:String>
+    <system:String x:Key="menuSettingsDescription">User general preferences.</system:String>
+    <system:String x:Key="menuConnected">Connected</system:String>
+    <system:String x:Key="menuDisconnected">Disconnected</system:String>
+    <system:String x:Key="menuUnknown">Unknown</system:String>
+    
+    <!--Configuration Page-->
+    <system:String x:Key="configurationProfile">PROFILE</system:String>
+    <system:String x:Key="configurationConnection">CONNECTION</system:String>
+    <system:String x:Key="configurationTitle">Configuration</system:String>
+    <system:String x:Key="configurationDescription">Configure the connection parameters with the serial device.</system:String>
+    <system:String x:Key="configurationConnectButton">Connect</system:String>
+    <system:String x:Key="configurationDisconnectButton">Disconnect</system:String>
+    <system:String x:Key="configurationResetButton">Reset</system:String>
+    <system:String x:Key="configurationItemNameTitle">Name</system:String>
+    <system:String x:Key="configurationItemNameDescription">Profile name.</system:String>
+    <system:String x:Key="configurationItemBoardTitle">Board</system:String>
+    <system:String x:Key="configurationItemBoardDescription">Board type</system:String>
+    <system:String x:Key="configurationItemLightsTitle">Lights</system:String>
+    <system:String x:Key="configurationItemLightsDescription">Number of the available lights.</system:String>
+    <system:String x:Key="configurationItemLightsUnit">lights</system:String>
+    <system:String x:Key="configurationItemUsbBaudTitle">Baud</system:String>
+    <system:String x:Key="configurationItemUsbBaudDescription">Transfer rate.</system:String>
+    <system:String x:Key="configurationItemUsbPortTitle">Port</system:String>
+    <system:String x:Key="configurationItemUsbPortDescription">Communication port.</system:String>
+    <system:String x:Key="configurationItemLanIpAddresTitle">IP Address</system:String>
+    <system:String x:Key="configurationItemLanIpAddresDescription">IP address of the board.</system:String>
+    <system:String x:Key="configurationItemLanPortTitle">Port</system:String>
+    <system:String x:Key="configurationItemLanPortDescription">Communication port.</system:String>
+
+    <!--Shared Effects-->
+    <system:String x:Key="effectLogicSettings">LOGIC SETTINGS</system:String>
+    <system:String x:Key="effectColorSettings">COLOR SETTINGS</system:String>
+    <system:String x:Key="effectItemColorPickerTitle">Color picker</system:String>
+    <system:String x:Key="effectItemColorPickerDescription">Select the color you want to use.</system:String>
+    <system:String x:Key="effectItemColorModeTitle">Color mode</system:String>
+    <system:String x:Key="effectItemColorModeDescription">Select the type of color to be applied on output.</system:String>
+    
+    <!--Static Effect-->
+    <system:String x:Key="effectItemOutputLightTitle">Output light</system:String>
+    <system:String x:Key="effectItemOutputLightDescription">Select the output light.</system:String>
+    <system:String x:Key="effectItemIntensityTitle">Intensity</system:String>
+    <system:String x:Key="effectItemIntensityDescription">Set the intensity of the color.</system:String>
+    <system:String x:Key="effectSingleLight">Light</system:String>
+    <system:String x:Key="effectAllLights">All Lights</system:String>
+    
+    <!--Breathing Effect-->
+    <system:String x:Key="effectItemBreathingSpeedTitle">Breathing speed</system:String>
+    <system:String x:Key="effectItemBreathingSpeedDescription">Select the speed with which the color changes.</system:String>
+    <system:String x:Key="effectItemMinIntensityTitle">Min intensity</system:String>
+    <system:String x:Key="effectItemMinIntensityDescription">Select the minimum level of color accuracy.</system:String>
+    <system:String x:Key="effectItemMaxIntensityTitle">Max intensity</system:String>
+    <system:String x:Key="effectItemMaxIntensityDescription">Select the maximum level of color accuracy.</system:String>
+
+    <!--Gradient Effect-->
+    <system:String x:Key="effectItemGradientSpeedTitle">Gradient speed</system:String>
+    <system:String x:Key="effectItemGradientSpeedDescription">Select the speed with which the color changes.</system:String>
+
+    <!--Strobing Effect-->
+    <system:String x:Key="effectItemStrobingSpeedTitle">Strobing speed</system:String>
+    <system:String x:Key="effectItemStrobingSpeedDescription">Select the speed with which the color changes.</system:String>
+    
+    <!--Spectrum Effect-->
+    <system:String x:Key="effectAudioSettings">AUDIO SETTINGS</system:String>
+    <system:String x:Key="effectItemInputDeviceTitle">Input device</system:String>
+    <system:String x:Key="effectItemInputDeviceDescription">Select the device from which you want to capture the audio to perform the acquisition.</system:String>
+    <system:String x:Key="effectItemPeakLevelTitle">Peak level</system:String>
+    <system:String x:Key="effectItemPeakLevelDescription">Displays the output level in real time.</system:String>
+    <system:String x:Key="effectItemPeakMultiplierTitle">Peak multiplier</system:String>
+    <system:String x:Key="effectItemPeakMultiplierDescription">Volume too low? No problem, amplify the output peak.</system:String>
+    <system:String x:Key="effectItemBandFilterTitle">Band filter</system:String>
+    <system:String x:Key="effectItemBandFilterDescription">Select a filter to apply to the output spectrum, in order to distinguish the various frequency bands.</system:String>
+    <system:String x:Key="effectLowFilter">LOW</system:String>
+    <system:String x:Key="effectMediumFilter">MEDIUM</system:String>
+    <system:String x:Key="effectHighFilter">HIGH</system:String>
+    <system:String x:Key="effectItemCycleSpeedTitle">Cycle speed</system:String>
+    <system:String x:Key="effectItemCycleSpeedDescription">Set the colors rotation speed.</system:String>
+    <system:String x:Key="effectItemPeakSensibilityTitle">Peak sensibility</system:String>
+    <system:String x:Key="effectItemPeakSensibilityDescription">Select the peak threshold.</system:String>
+
+    <!--Screen Effect-->
+    <system:String x:Key="effectCaptureSettings">CAPTURE SETTINGS</system:String>
+    <system:String x:Key="effectItemSamplingSpeedTitle">Sampling speed</system:String>
+    <system:String x:Key="effectItemSamplingSpeedDescription">Select the screen sampling rate.</system:String>
+    <system:String x:Key="effectItemCaptureMethodTitle">Capture method</system:String>
+    <system:String x:Key="effectItemCaptureMethodDescription">Select the capture method.</system:String>
+    <system:String x:Key="effectItemCaptureScreenTitle">Capture screen</system:String>
+    <system:String x:Key="effectItemCaptureScreenDescription">Select the screen to capture.</system:String>
+
+    <!--Hardware Effect-->
+    <system:String x:Key="effectHardwareSettings">HARDWARE SETTINGS</system:String>
+    <system:String x:Key="effectItemHardwareTitle">Hardware</system:String>
+    <system:String x:Key="effectItemHardwareDescription">Select the hardware to analyze.</system:String>
+
+    <!--Daylight Effect-->
+    <system:String x:Key="effectTemperatureSettings">TEMPERATURE SETTINGS</system:String>
+    <system:String x:Key="effectItemPresetTitle">Preset</system:String>
+    <system:String x:Key="effectItemPresetDescription">Select one of the available presets.</system:String>
+    <system:String x:Key="effectItemColorTemperatureTitle">Color temperature</system:String>
+    <system:String x:Key="effectItemColorTemperatureDescription">Set the color temperature in kelvin.</system:String>
+    <system:String x:Key="effectItemColorPreviewTitle">Color preview</system:String>
+    <system:String x:Key="effectItemColorPreviewDescription">Watch a preview of the color.</system:String>
+
+    <x:Array x:Key="effectDaylightPresets" Type="{x:Type system:String}">
+        <system:String>Candelight</system:String>
+        <system:String>Warm</system:String>
+        <system:String>Warm</system:String>
+        <system:String>Cool</system:String>
+        <system:String>Daylight</system:String>
+        <system:String>Custom</system:String>
+    </x:Array>
+    
+    <!--Weather Effect-->
+    <system:String x:Key="effectWeatherSettings">WEATHER SETTINGS</system:String>
+    <system:String x:Key="effectItemSearchLocationTitle">Search for a location</system:String>
+    <system:String x:Key="effectItemSearchLocationDescription">Enter the name of the location to be analyzed.</system:String>
+    <system:String x:Key="effectItemUpdatePeriodTitle">Update period</system:String>
+    <system:String x:Key="effectItemUpdatePeriodDescription">Weather update period.</system:String>
+    <system:String x:Key="effectItemCurrentWeatherTitle">Current weather</system:String>
+    <system:String x:Key="effectItemCurrentWeatherDescription">Watch or update the current weather conditions.</system:String>
+    <system:String x:Key="effectItemEvaluationParameterTitle">Evaluation parameter</system:String>
+    <system:String x:Key="effectItemEvaluationParameterDescription">Parameter to evaluate to change the color.</system:String>
+    <system:String x:Key="effectItemWeatherConditionTitle">Weather condition</system:String>
+    <system:String x:Key="effectItemWeatherConditionDescription">Parameter to evaluate to change the color.</system:String>
+    <system:String x:Key="effectItemMinTemperatureTitle">Min temperature</system:String>
+    <system:String x:Key="effectItemMinTemperatureDescription">Enter the minimum temperature in your location.</system:String>
+    <system:String x:Key="effectItemMaxTemperatureTitle">Max temperature</system:String>
+    <system:String x:Key="effectItemMaxTemperatureDescription">Enter the maximum temperature in your location.</system:String>
+    <system:String x:Key="effectItemMinPressureTitle">Min pressure</system:String>
+    <system:String x:Key="effectItemMinPressureDescription">Enter the minimum pressure in your location.</system:String>
+    <system:String x:Key="effectItemMaxPressureTitle">Max pressure</system:String>
+    <system:String x:Key="effectItemMaxPressureDescription">Enter the maximum pressure in your location.</system:String>
+
+    <x:Array x:Key="effectWeatherPeriods" Type="{x:Type system:String}">
+        <system:String>15 min</system:String>
+        <system:String>30 min</system:String>
+        <system:String>45 min</system:String>
+        <system:String>1 h</system:String>
+        <system:String>2 h</system:String>
+        <system:String>3 h</system:String>
+    </x:Array>
+    <x:Array x:Key="effectWeatherParameters" Type="{x:Type system:String}">
+        <system:String>Weather</system:String>
+        <system:String>Temperature</system:String>
+        <system:String>Humidity</system:String>
+        <system:String>Pressure</system:String>
+    </x:Array>
+    <x:Array x:Key="effectWeatherConditions" Type="{x:Type system:String}">
+        <system:String>Thunderstorm</system:String>
+        <system:String>Drizzle</system:String>
+        <system:String>Rain</system:String>
+        <system:String>Snow</system:String>
+        <system:String>Atmosphere</system:String>
+        <system:String>Clear</system:String>
+        <system:String>Clouds</system:String>
+    </x:Array>
+    
+    <!--Settings Page-->
+    <system:String x:Key="settingsTitle">Settings</system:String>
+    <system:String x:Key="settingsDescription">Change the program settings according to your preferences.</system:String>
+    <system:String x:Key="settingsCheckForUpdatedButton">Check For Updates</system:String>
+    <system:String x:Key="settingsVersionButton">Version</system:String>
+    <system:String x:Key="settingsItemStartAtStartupTitle">Open LED System</system:String>
+    <system:String x:Key="settingsItemStartAtStartupDescription">Allow LED System to immediately create an atmosphere of lights and colors when starting windows.</system:String>
+    <system:String x:Key="settingsItemStartEffectTitle">Select the startup effect</system:String>
+    <system:String x:Key="settingsItemStartEffectDescription">Choose the effect that starts as soon as your computer is turned on.</system:String>
+    <system:String x:Key="settingsItemStartAttemptsTitle">Connection attempts</system:String>
+    <system:String x:Key="settingsItemStartAttemptsDescription">Select how many times you want LED System to try to connect in case of failure when windows starts.</system:String>
+    <system:String x:Key="settingsItemStartMinimizedTitle">Start minimized</system:String>
+    <system:String x:Key="settingsItemStartMinimizedDescription">LED System will start in the background and will avoid annoying and burdening the operating system.</system:String>
+    <system:String x:Key="settingsItemMinimizeToTryTitle">Minimize to tray</system:String>
+    <system:String x:Key="settingsItemMinimizeToTryDescription">Let the LED system continue to do its job even when the close button is mistakenly pressed.</system:String>
+    <system:String x:Key="settingsItemMScalingTitle">Scaling</system:String>
+    <system:String x:Key="settingsItemMScalingDescription">Set the interface zoom.</system:String>
+    <system:String x:Key="settingsWindows">WINDOWS</system:String>
+    <system:String x:Key="settingsCloseButton">CLOSE BUTTON</system:String>
+    <system:String x:Key="settingsUserInterface">USER INTERFACE</system:String>
+
+    <!--Alert Messages-->
+    <system:String x:Key="alertInternalErrorTitle">Internal Error</system:String>
+    <system:String x:Key="alertInternalErrorDescription">The running effect has reported an error that prevents it from working.</system:String>
+    <system:String x:Key="alertConnectionErrorTitle">Connection Error</system:String>
+    <system:String x:Key="alertConnectionErrorDescription">The selected port ({0}) is used by another program.</system:String>
+    <system:String x:Key="alertResetConfirmTitle">Confirm Reset ?</system:String>
+    <system:String x:Key="alertResetConfirmDescription">The program will return to the initial settings. The board configuration, saved colors and program settings will be removed.</system:String>
+    <system:String x:Key="alertResetOkButton">Yes, continue</system:String>
+    <system:String x:Key="alertResetCancelButton">Cancel</system:String>
+   
+
+    <!--Alert Messages-->
+    <system:String x:Key="alertColorCorrectionDenialTitle">The color cannot be corrected!</system:String>
+    <system:String x:Key="alertColorCorrectionDenialDescription">Per poter eseguire la calibrazione dei colori è necessario che la scheda di ricezione sia collegata.</system:String>
+    <system:String x:Key="alertArrangementDenialTitle">It's not possible to change the arrangement!</system:String>
+    <system:String x:Key="alertArrangementDenialDescription">It is not possible to change the arrangement as long as the device is connected to the coupon. Disconnect it and try again!</system:String>
+    <system:String x:Key="alertChangeAudioDenialTitle">Input device can't be changed</system:String>
+    <system:String x:Key="alertChangeAudioDenialDescription">It is not possible to change the input audio device when the effect is running. Select another effect or disconnect and then try again.</system:String>
+    <system:String x:Key="alertChangeDisplayDenialTitle">Input device can't be changed</system:String>
+    <system:String x:Key="alertChangeDisplayDenialDescription">It is not possible to change the input audio device when the effect is running. Select another effect or disconnect and then try again.</system:String>
+    <system:String x:Key="alertSceneInputNameTitle">Enter the name of the scene:</system:String>
+    <system:String x:Key="alertSceneInputNameDescription">Scene #{0}</system:String>
+    <system:String x:Key="alertSceneLoadErrorTitle">Image loading error!</system:String>
+    <system:String x:Key="alertSceneLoadErrorDescription">Cannot load image: {0}</system:String>
+    <system:String x:Key="alertOkButton">Ok</system:String>
+    <system:String x:Key="alertYesButton">Allow</system:String>
+    <system:String x:Key="alertNoButton">Deny</system:String>
+    <system:String x:Key="alertCancelButton">Cancel</system:String>
+
+    <!--Balloon Tips-->
+    <system:String x:Key="balloonTipRunningInBackgroundTitle">Cursorr is still running!</system:String>
+    <system:String x:Key="balloonTipRunningInBackgroundDescription">Cursorr will continue to run in the background.</system:String>
+
+    <!--Notification Menu-->
+    <system:String x:Key="notifyOpen">Open Cursorr</system:String>
+    <system:String x:Key="notifySettings">Show the app settings</system:String>
+    <system:String x:Key="notifyAbout">About the app...</system:String>
+    <system:String x:Key="notifyClose">Close Cursorr</system:String>
+</ResourceDictionary>
