@@ -16,10 +16,23 @@
                 </Grid>
             </Border>
             <Border Background="#FF292929" CornerRadius="16" Margin="0,8,0,0">
-                <Grid>
-                    <TextBlock Margin="16" Text="App version" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="1.0.0.0" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
-                </Grid>
+                <StackPanel Orientation="Vertical">
+                    <Grid>
+                        <TextBlock Margin="16" Text="App version" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock x:Name="Tx_AppVersion" Margin="16" HorizontalAlignment="Right" Text="N/A" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
+                    </Grid>
+                    <Grid Height="2" Background="#FF3C3C3C" Margin="16,0"/>
+                    <Grid Margin="0,0,0,8">
+                        <StackPanel Margin="16,8">
+                            <Button x:Name="Btn_CheckForUpdates" Margin="0,8,0,0" HorizontalAlignment="Stretch" Padding="5,8" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14" Click="Btn_CheckForUpdates_Click">
+                                <TextBlock Text="Check for updates" HorizontalAlignment="Center"></TextBlock>
+                            </Button>
+                            <Button x:Name="Btn_DownloadUpdate" Margin="0,8,0,0" HorizontalAlignment="Stretch" Padding="5,8" VerticalAlignment="Center" Foreground="Black" FontSize="14" Background="#FFDD9726" Click="Btn_DownloadUpdate_Click" Cursor="Hand">
+                                <TextBlock x:Name="Tx_NewVersion" Text="Download version N/A" HorizontalAlignment="Center"></TextBlock>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
             </Border>
             <Border Background="#FF292929" CornerRadius="16" Margin="0,8,0,0">
                 <Grid>
@@ -30,7 +43,7 @@
             <Border Background="#FF292929" CornerRadius="16" Margin="0,8,0,0">
                 <Grid>
                     <TextBlock Margin="16" Text="Website" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="http://cursorr.app" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
+                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="www.cursorrapp.com" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
                 </Grid>
             </Border>
         </StackPanel>

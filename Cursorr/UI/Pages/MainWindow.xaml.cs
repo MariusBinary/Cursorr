@@ -100,10 +100,10 @@ namespace Cursorr.Pages
             var shouldReduceAsIconTry = Properties.Settings.Default.WorkInBackground;
             if (shouldReduceAsIconTry && tryToClose != true)
             {
-                TBar_Icon.ShowBalloonTip(
-                    FindResource("balloonTipRunningInBackgroundTitle") as string,
-                    FindResource("balloonTipRunningInBackgroundDescription") as string,
-                    Hardcodet.Wpf.TaskbarNotification.BalloonIcon.Info);
+                //TBar_Icon.ShowBalloonTip(
+                //    FindResource("balloonTipRunningInBackgroundTitle") as string,
+                //    FindResource("balloonTipRunningInBackgroundDescription") as string,
+                //    Hardcodet.Wpf.TaskbarNotification.BalloonIcon.Info);
                 this.ShowInTaskbar = false;
                 this.Hide();
                 return;

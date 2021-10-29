@@ -26,7 +26,7 @@
                     MenuActivation="RightClick"   
                     TrayLeftMouseUp="TBar_Icon_TrayLeftMouseUp"
                     TrayMouseDoubleClick="TBar_Icon_TrayMouseDoubleClick"
-                    IconSource="/Assets/5696349.ico">
+                    IconSource="/Assets/app_logo.ico">
                 <tb:TaskbarIcon.ContextMenu>
                     <ContextMenu>
                         <MenuItem x:Name="Menu_Open" Header="{StaticResource notifyOpen}" Click="Menu_Open_Click"/>
