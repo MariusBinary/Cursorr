@@ -1,6 +1,8 @@
 # Cursorr
 Cursorr is an application that allows you to control your PC remotely, by moving your cursor using a touchpad or using your phone's sensors to move around in a three-dimensional space.
 
+![Cursorr Screenshot](https://www.mariusbinary.altervista.org/Senza_nome.png)
+
 ## How to use:
 ---
 1. Download and install the server on your pc from this github page or from the official [Cursorr Website](https://cursorrapp.com/).
