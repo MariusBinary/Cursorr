@@ -16,7 +16,7 @@ Cursorr is an application that allows you to control your PC remotely, by moving
 If your device is not automatically detected by the application, first make sure you are connected to the same wifi network. If this is already the case, add the server manually from the application by clicking on the button "Not found? Add it manually" at the bottom of the page and enter the IP address provided by the server.
 ### What can I do if the cursor movement is not smooth or freezes?
 If the movement of the cursor is not smooth or freezes, the problem is the latency between the PC and the phone. To get good performance try to be as close as possible to the wifi router.
-### Does the app works in hotspot?
-No, unfortunately if you are doing hotspot from the phone on which the application is installed, it will not be able to detect the server. However if you use a thrird device to do hotspot and connect both the pc and the phone on that network, the app will work just fine.
+### Does the application works in hotspot?
+Yes, but if the device that is doing hotspot is the same on which you want to use the application, the server will not be detected automatically and you will have add it by to entering the IP address manually.
 ### Does the application support connection via bluetooth?
 No, at the moment the application does not support connection via bluetooth.
