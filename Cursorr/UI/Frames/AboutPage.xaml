@@ -5,30 +5,30 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="SettingsPage">
+      Title="About">
 
     <Grid>
         <StackPanel>
             <Border Background="#FF292929" CornerRadius="16">
                 <Grid>
-                    <TextBlock Margin="16" Text="App name" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="Cursorr" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
+                    <TextBlock Margin="16" Text="{StaticResource aboutAppNameTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="{StaticResource aboutAppNameDescription}" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
                 </Grid>
             </Border>
             <Border Background="#FF292929" CornerRadius="16" Margin="0,8,0,0">
                 <StackPanel Orientation="Vertical">
                     <Grid>
-                        <TextBlock Margin="16" Text="App version" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Margin="16" Text="{StaticResource aboutAppVersionTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
                         <TextBlock x:Name="Tx_AppVersion" Margin="16" HorizontalAlignment="Right" Text="N/A" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
                     </Grid>
                     <Grid Height="2" Background="#FF3C3C3C" Margin="16,0"/>
                     <Grid Margin="0,0,0,8">
                         <StackPanel Margin="16,8">
                             <Button x:Name="Btn_CheckForUpdates" Margin="0,8,0,0" HorizontalAlignment="Stretch" Padding="5,8" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14" Click="Btn_CheckForUpdates_Click">
-                                <TextBlock Text="Check for updates" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="{StaticResource aboutButtonCheckForUpdated}" HorizontalAlignment="Center"></TextBlock>
                             </Button>
                             <Button x:Name="Btn_DownloadUpdate" Margin="0,8,0,0" HorizontalAlignment="Stretch" Padding="5,8" VerticalAlignment="Center" Foreground="Black" FontSize="14" Background="#FFDD9726" Click="Btn_DownloadUpdate_Click" Cursor="Hand">
-                                <TextBlock x:Name="Tx_NewVersion" Text="Download version N/A" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock x:Name="Tx_NewVersion" Text="{StaticResource aboutButtonUpdate}" HorizontalAlignment="Center"></TextBlock>
                             </Button>
                         </StackPanel>
                     </Grid>
@@ -36,14 +36,14 @@
             </Border>
             <Border Background="#FF292929" CornerRadius="16" Margin="0,8,0,0">
                 <Grid>
-                    <TextBlock Margin="16" Text="Author" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="MariusBinary" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
+                    <TextBlock Margin="16" Text="{StaticResource aboutAuthorTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="{StaticResource aboutAuthorDescription}" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
                 </Grid>
             </Border>
             <Border Background="#FF292929" CornerRadius="16" Margin="0,8,0,0">
                 <Grid>
-                    <TextBlock Margin="16" Text="Website" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="www.cursorrapp.com" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
+                    <TextBlock Margin="16" Text="{StaticResource aboutWebsiteTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                    <TextBlock Margin="16" HorizontalAlignment="Right" Text="{StaticResource aboutWebsiteDescription}" VerticalAlignment="Center" Foreground="#FFB5B5B5" FontSize="14"/>
                 </Grid>
             </Border>
         </StackPanel>

@@ -1,58 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-                    xmlns:models="clr-namespace:LEDSystem.Core.Models" 
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
-    <!--Boards Source-->
-    <x:Array x:Key="boards" Type="{x:Type ComboBoxItem}">
-        <ComboBoxItem Content="Arduino (USB)" Style="{StaticResource usbConnectionItem}" />
-        <ComboBoxItem Content="Arduino (LAN)" Style="{StaticResource lanConnectionItem}" />
-    </x:Array>
-    
-    <!--Effects Source--><!--
-    <x:Array x:Key="effects" Type="{x:Type models:EffectModel}">
-        <models:EffectModel Id="0" Name="Static" Image="pack://application:,,,/Images/ic-static.png" Details="A simple and bright color." Description="This effect allows you to set a single color always on." />
-        <models:EffectModel Id="1" Name="Breathing" Image="pack://application:,,,/Images/ic-breathing.png" Details="Relax and give yourself a deep breath." Description="This effect allows you to start from a single color to create a fade between its minimum and its maximum." />
-        <models:EffectModel Id="2" Name="Strobing" Image="pack://application:,,,/Images/ic-strobing.png" Details="Be careful not to feel bad." Description="This effect allows you to create an immediate fade between a color and its minimum." />
-        <models:EffectModel Id="3" Name="Gradient" Image="pack://application:,,,/Images/ic-rainbow.png" Details="A multicolored glow in rotation." Description="This effect allows you to create a gradation of colors that will come on in rotation." />
-        <models:EffectModel Id="4" Name="Spectrum" Image="pack://application:,,,/Images/ic-spectrum.png" Details="Light up to the beat of your music." Description="This effect allows you to change the intensity of a color based on the intensity of the audio." SponsorToolTip="This effect uses: BASS.NET&#xA;http://www.bass.radio42.com/" SponsorImage="pack://application:,,,/Images/ic-sponsor-bassdll.png" />
-        <models:EffectModel Id="5" Name="Screen" Image="pack://application:,,,/Images/ic-screen.png" Details="Let the color come out of the screen." Description="This effect allows you to detect the dominant color of the screen and background." SponsorToolTip="This effect uses: SharpDX&#xA;http://sharpdx.org/" SponsorImage="pack://application:,,,/Images/ic-sponsor-sharpdx.png" />
-        <models:EffectModel Id="6" Name="Hardware" Image="pack://application:,,,/Images/ic-cpu.png" Details="See the status of your pc." Description="This effect allows you to determine the use or status of the hardware based on a gradation of colors." />
-        <models:EffectModel Id="7" Name="Daylight" Image="pack://application:,,,/Images/ic-daylight.png" Details="Create a natural atmosphere of colors." Description="This effect allows you to define a gradation of colors that will light up in rotation throughout the day." />
-        <models:EffectModel Id="8" Name="Weather" Image="pack://application:,,,/Images/ic-weather.png" Details="Always keep an eye on the weather." Description="This effect allows you to define a series of colors that will light up according to weather conditions." SponsorToolTip="This effect uses: OpenWeather&#xA;https://openweathermap.org/" SponsorImage="pack://application:,,,/Images/ic-sponsor-openweather.png" />
-    </x:Array>-->
-    
-    <!--Breathing Color Modes-->
-    <x:Array x:Key="breathingColorModes" Type="{x:Type ComboBoxItem}">
-        <ComboBoxItem Content="Group fade" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Group fade with random colors" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Fade with shifting lights" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="Fade with random colors and shifting lights" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="Fade with random lights" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="Fade with random colors and lights" Style="{StaticResource multipleLedItem}" />
-    </x:Array>
-    
-    <!--Gradient Color Modes-->
-    <x:Array x:Key="gradientColorModes" Type="{x:Type ComboBoxItem}">
-        <ComboBoxItem Content="All gradient" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Shift gradient" Style="{StaticResource multipleLedItem}" />
-    </x:Array>
-    
-    <!--Spectrum Color Modes-->
-    <x:Array x:Key="spectrumColorModes" Type="{x:Type ComboBoxItem}">
-        <ComboBoxItem Content="Group static color" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Group gradient levels" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Group colors cycle" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Group with random colors on peak" Style="{StaticResource singleLedItem}" />
-        <ComboBoxItem Content="Random lights and colors on peak" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="Fade lights tail on peak" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="Shifting lights tail on peak" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="Random patterns on peak" Style="{StaticResource multipleLedItem}" />
-        <ComboBoxItem Content="VU meter" Style="{StaticResource multipleLedItem}" />
-    </x:Array>
-
-    <!--Hardware Color Modes-->
-    <x:Array x:Key="hardwareColorModes" Type="{x:Type ComboBoxItem}">
-        <ComboBoxItem Content="Gradient Color" Style="{StaticResource singleLedItem}"/>
-        <ComboBoxItem Content="Threshold Color" Style="{StaticResource singleLedItem}"/>
-    </x:Array>
+   
 </ResourceDictionary>

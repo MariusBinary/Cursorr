@@ -12,6 +12,7 @@ using Cursorr.Core.Models;
 using Cursorr.UI.Frames;
 using Cursorr.UI.Controls;
 using Cursorr.UI.Models;
+using ImmersiveLights.Core;
 
 namespace Cursorr.Pages
 {
@@ -49,14 +50,19 @@ namespace Cursorr.Pages
                 }
             }
 
+            // Aggiungere l'applicazione affinchè venga eseguita all'avvio di Windows.
+            if (Properties.Settings.Default.FirstRun)
+            {
+                Registry.AddToStartup();
+                Properties.Settings.Default.FirstRun = false;
+                Properties.Settings.Default.Save();
+            }
+
             sAuthManager = new AuthManager();
             sBroadcastListener = new BroadcastListener();
             sDataListener = new DataListener(this);
             mHomeFrame = new HomePage(this);
-        }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
             sDataListener.Run();
             sBroadcastListener.Run();
 
@@ -69,7 +75,7 @@ namespace Cursorr.Pages
                 {
                     Name = info.mName,
                     Address = info.mAddress,
-                    Status = "Disconnected"
+                    Status = FindResource("homeAuthorizedCellDisconnected") as string
                 });
             }
             mHomeFrame.OnClientUpdate(models);
@@ -100,10 +106,6 @@ namespace Cursorr.Pages
             var shouldReduceAsIconTry = Properties.Settings.Default.WorkInBackground;
             if (shouldReduceAsIconTry && tryToClose != true)
             {
-                //TBar_Icon.ShowBalloonTip(
-                //    FindResource("balloonTipRunningInBackgroundTitle") as string,
-                //    FindResource("balloonTipRunningInBackgroundDescription") as string,
-                //    Hardcodet.Wpf.TaskbarNotification.BalloonIcon.Info);
                 this.ShowInTaskbar = false;
                 this.Hide();
                 return;
@@ -169,11 +171,11 @@ namespace Cursorr.Pages
                     {
                         case ServerEvent.STARTED:
                             TBar_Icon.IconSource = new BitmapImage(
-                                new Uri("pack://application:,,,/Cursorr;component/Assets/ic_online.ico"));
+                                new Uri("pack://application:,,,/Cursorr;component/Assets/ic_device_online.ico"));
                             break;
                         case ServerEvent.STOPPED:
                             TBar_Icon.IconSource = new BitmapImage(
-                                new Uri("pack://application:,,,/Cursorr;component/Assets/ic_offline.ico"));
+                                new Uri("pack://application:,,,/Cursorr;component/Assets/ic_device_offline.ico"));
                             break;
                     }
 
@@ -195,9 +197,8 @@ namespace Cursorr.Pages
             this.Dispatcher.Invoke(() =>
             {
                 var response = WpfMessageBox.Show(
-                    "Waiting for approval",
-                    $"\"{client.mName}\" is trying to connect. " +
-                    $"If you allow it, the device will be saved and can connect in the future without asking for permission.",
+                    FindResource("alertConnectionRequestTitle") as string,
+                    string.Format(FindResource("alertConnectionRequestDescription") as string, client.mName),
                     MessageBoxButton.YesNo);
 
                 if (response == MessageBoxResult.Yes) {
@@ -218,7 +219,9 @@ namespace Cursorr.Pages
                     models.Add(new DeviceModel() { 
                         Name = info.mName,
                         Address = info.mAddress,
-                        Status = info.mAddress == client.mAddress ? "Connected" : "Disconnected"
+                        Status = info.mAddress == client.mAddress ?
+                        FindResource("homeAuthorizedCellConnected") as string :
+                        FindResource("homeAuthorizedCellDisconnected") as string
                     });
                 }
                 mHomeFrame.OnClientUpdate(models);
@@ -235,7 +238,7 @@ namespace Cursorr.Pages
                     {
                         Name = info.mName,
                         Address = info.mAddress,
-                        Status = "Disconnected"
+                        Status = FindResource("homeAuthorizedCellDisconnected") as string
                     });
                 }
                 mHomeFrame.OnClientUpdate(models);
@@ -306,8 +309,6 @@ namespace Cursorr.Pages
 
         private void TBar_Icon_TrayLeftMouseUp(object sender, RoutedEventArgs e)
         {
-            // TODO: if window is shown, hide it and the other way around.
-            // TODO: if the app is in the taskbar show it.
             this.ShowInTaskbar = true;
             this.Show();
         }

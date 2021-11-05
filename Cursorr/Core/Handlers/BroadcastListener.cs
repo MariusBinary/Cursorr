@@ -14,7 +14,7 @@ namespace Cursorr.Core.Handlers
         private UdpClient mSocket;
         private CancellationTokenSource mCancellationToken;
 
-        private readonly int APP_VERISON = 1000;
+        private readonly int APP_VERISON = 1400;
 
         public BroadcastListener() 
         {

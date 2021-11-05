@@ -12,12 +12,13 @@ namespace Cursorr.UI.Models
         public string Name {  get; set; }
         public string Address { get; set; }
         public string Status { get; set; }
+        public bool IsConnected { get; set; }
 
         public SolidColorBrush StatusColor { 
             get
             {
                 return (SolidColorBrush)new BrushConverter().ConvertFrom(
-                    Status.Equals("Connected") ? "#56ab2f" : "#D54936");
+                    IsConnected ? "#56ab2f" : "#D54936");
             }
         }
 
@@ -25,7 +26,7 @@ namespace Cursorr.UI.Models
         {
             get
             {
-                return Status.Equals("Connected");
+                return IsConnected;
             }
         }
     }

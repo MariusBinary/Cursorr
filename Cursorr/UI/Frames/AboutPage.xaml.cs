@@ -37,17 +37,17 @@ namespace Cursorr.UI.Frames
                     if (!currVersion.Equals(newVersion))
                     {
                         Btn_DownloadUpdate.Visibility = Visibility.Visible;
-                        Tx_NewVersion.Text = $"Download version {newVersion}";
+                        Tx_NewVersion.Text = string.Format(FindResource("aboutButtonUpdate") as string, newVersion);
                         downloadUrl = JObject.Parse(updateResponse)["link"].Value<string>();
                     }
                     else
                     {
-                        MessageBox.Show("No updates available!");
+                        MessageBox.Show(FindResource("alertNoUpdatesText") as string);
                     }
                 }
             } catch
             {
-                MessageBox.Show("No updates available!");
+                MessageBox.Show(FindResource("alertNoUpdatesText") as string);
             }
         }
 

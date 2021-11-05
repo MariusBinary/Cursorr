@@ -6,7 +6,6 @@
         xmlns:tb="http://www.hardcodet.net/taskbar"
         mc:Ignorable="d"
         Closing="Window_Closing"
-        Loaded="Window_Loaded"
         Activated="Window_Activated"
         Deactivated="Window_Deactivated"
         Title="Cursorr" MinWidth="700" MinHeight="500" Width="700" Height="500" 
@@ -29,7 +28,7 @@
                     IconSource="/Assets/app_logo.ico">
                 <tb:TaskbarIcon.ContextMenu>
                     <ContextMenu>
-                        <MenuItem x:Name="Menu_Open" Header="{StaticResource notifyOpen}" Click="Menu_Open_Click"/>
+                        <MenuItem x:Name="Menu_Open" Header="{StaticResource notifyOpen}" Click="Menu_Open_Click" FontWeight="Bold"/>
                         <MenuItem x:Name="Menu_Settings" Header="{StaticResource notifySettings}" Click="Menu_Settings_Click"/>
                         <MenuItem x:Name="Menu_About" Header="{StaticResource notifyAbout}" Click="Menu_About_Click"/>
                         <Separator />
@@ -52,12 +51,12 @@
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="32"/>
-                                <ColumnDefinition Width="8"/>
+                                <ColumnDefinition Width="4"/>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="8"/>
                             </Grid.ColumnDefinitions>
-                            <Path Width="24" Height="24" Data="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" Fill="#F7971E" Grid.Column="0"></Path>
-                            <TextBlock Text="HOME" VerticalAlignment="Center" Grid.Column="2" FontSize="14" Foreground="#F7971E" FontWeight="Bold"></TextBlock>
+                            <Path Width="24" Height="24" Data="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" Fill="White" Grid.Column="0"></Path>
+                            <TextBlock Text="{StaticResource navGoBackHome}" VerticalAlignment="Center" Grid.Column="2" FontSize="14" Foreground="White" FontWeight="Bold"></TextBlock>
                         </Grid>
                     </Button>
 

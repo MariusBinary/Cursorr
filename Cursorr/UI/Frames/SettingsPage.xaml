@@ -5,15 +5,15 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="SettingsPage">
+      Title="Settings">
 
     <Grid>
         <StackPanel>
             <Border x:Name="Tab_StartWithWindows" Background="#FF292929" CornerRadius="16" MouseLeftButtonUp="Tab_StartWithWindows_MouseLeftButtonUp">
                 <Grid Cursor="Hand">
                     <StackPanel Margin="16" Orientation="Vertical">
-                        <TextBlock Text="Start with windows" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="Start the application when windows start." VerticalAlignment="Center" Margin="0,-2,0,0" Foreground="#FF939393"/>
+                        <TextBlock Text="{StaticResource settingsStartWithWindowsTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="{StaticResource settingsStartWithWindowsDescription}" VerticalAlignment="Center" Margin="0,-2,0,0" Foreground="#FF939393"/>
                     </StackPanel>
                     <CheckBox x:Name="CBox_StartWithWindows" Padding="16" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" RenderTransformOrigin="0.5,0.5" FontWeight="Normal" Checked="CBox_StartWithWindows_Checked" Unchecked="CBox_StartWithWindows_Unchecked"/>
                 </Grid>
@@ -21,8 +21,8 @@
             <Border x:Name="Tab_StartAsIcon" Background="#FF292929" CornerRadius="16" Margin="0,8,0,0" MouseLeftButtonUp="Tab_StartAsIcon_MouseLeftButtonUp">
                 <Grid Cursor="Hand">
                     <StackPanel Margin="16" Orientation="Vertical">
-                        <TextBlock Text="Start reduced as icon" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="When the program starts with windows, start immediatly in bacgrkound" VerticalAlignment="Center" Margin="0,-2,0,0" Foreground="#FF939393"/>
+                        <TextBlock Text="{StaticResource settingsStartReducedAsIconTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="{StaticResource settingsStartReducedAsIconDescription}" VerticalAlignment="Center" Margin="0,-2,0,0" Foreground="#FF939393"/>
                     </StackPanel>
                     <CheckBox x:Name="CBox_StartAsIcon" Padding="16" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" RenderTransformOrigin="0.5,0.5" FontWeight="Normal" Checked="CBox_StartAsIcon_Checked" Unchecked="CBox_StartAsIcon_Unchecked"/>
                 </Grid>
@@ -30,8 +30,8 @@
             <Border x:Name="Tab_ReduceAsIcon" Background="#FF292929" CornerRadius="16" Margin="0,8,0,0" MouseLeftButtonUp="Tab_ReduceAsIcon_MouseLeftButtonUp">
                 <Grid Cursor="Hand">
                     <StackPanel Margin="16" Orientation="Vertical">
-                        <TextBlock Text="Work in background" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
-                        <TextBlock Text="When the close key is pressed, the application continues to work in background." VerticalAlignment="Center" Margin="0,-2,0,0" Foreground="#FF939393"/>
+                        <TextBlock Text="{StaticResource settingsWorkInBackgroundTitle}" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="{StaticResource settingsWorkInBackgroundDescription}" VerticalAlignment="Center" Margin="0,-2,0,0" Foreground="#FF939393"/>
                     </StackPanel>
                     <CheckBox x:Name="CBox_ReduceAsIcon" Padding="16" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" RenderTransformOrigin="0.5,0.5" FontWeight="Normal" Checked="CBox_ReduceAsIcon_Checked" Unchecked="CBox_ReduceAsIcon_Unchecked"/>
                 </Grid>

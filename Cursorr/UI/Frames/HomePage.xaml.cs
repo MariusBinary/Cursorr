@@ -74,16 +74,16 @@ namespace Cursorr.UI.Frames
                     switch (action)
                     {
                         case ServerEvent.STARTED:
-                            Tb_ServerStatus.Text = "Online";
+                            Tb_ServerStatus.Text = FindResource("homeDeviceStarted") as string;
                             Tb_ServerStatus.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#caffbf");
                             Btn_Connect.Background = this.Resources["DisconnectButtonBrush"] as LinearGradientBrush;
-                            ((TextBlock)((Grid)(Btn_Connect.Content)).Children[1]).Text = "STOP";
+                            ((TextBlock)((Grid)(Btn_Connect.Content)).Children[1]).Text = FindResource("homeButtonStarted") as string;
                             break;
                         case ServerEvent.STOPPED:
-                            Tb_ServerStatus.Text = "Offline";
+                            Tb_ServerStatus.Text = FindResource("homeDeviceStopped") as string;
                             Tb_ServerStatus.Foreground = (SolidColorBrush)new BrushConverter().ConvertFrom("#f28482");
                             Btn_Connect.Background = this.Resources["ConnectButtonBrush"] as LinearGradientBrush;
-                            ((TextBlock)((Grid)(Btn_Connect.Content)).Children[1]).Text = "START";
+                            ((TextBlock)((Grid)(Btn_Connect.Content)).Children[1]).Text = FindResource("homeButtonStopped") as string;
                             break;
                     }
                 });
