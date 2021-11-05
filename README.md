@@ -4,7 +4,7 @@ Cursorr is an application that allows you to control your PC remotely, by moving
 ![Cursorr Screenshot](https://www.mariusbinary.altervista.org/Senza_nome.png)
 
 ## How to use:
----
+
 1. Download and install the server on your pc from this github page or from the official [Cursorr Website](https://cursorrapp.com/).
 2. Download and install the app on your android phone from [Google Play](https://play.google.com/store/apps/details?id=mariusbinary.cursorr).
 3. Make sure your pc and phone are connected to the same wifi network.
@@ -13,7 +13,7 @@ Cursorr is an application that allows you to control your PC remotely, by moving
 6. Tap on the server and use Cursorr.
 
 ## Need help?
----
+
 ### What can I do if the server is not automatically detected?
 If your device is not automatically detected by the application, first make sure you are connected to the same wifi network. If this is already the case, add the server manually from the application by clicking on the button "Not found? Add it manually" at the bottom of the page and enter the IP address provided by the server.
 ### What can I do if the cursor movement is not smooth or freezes?
