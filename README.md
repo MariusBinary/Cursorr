@@ -1,5 +1,5 @@
 # Cursorr
-Cursorr is an application that allows you to control your PC remotely, by moving your cursor using a touchpad or using your phone's sensors to move around in a three-dimensional space.
+Cursorr is an application that allows you to use your phone as a mouse for your pc. You can move the cursor by using the screen of your phone as a touchpad or by using the sensors of your phone and pointing it at your pc monitor like a laser.
 
 ![Cursorr Screenshot](https://www.mariusbinary.altervista.org/Senza_nome.png)
 
