@@ -5,7 +5,7 @@ Cursorr is an application that allows you to use your phone as a mouse for your 
 
 ## How to use:
 
-1. Download and install the server on your pc from this github page or from the official [Cursorr Website](https://cursorrapp.com/).
+1. Download and install the server on your pc from this github page or from the official [Cursorr Website](https://mariusbinary.github.io/Cursorr/).
 2. Download and install the app on your android phone from [Google Play](https://play.google.com/store/apps/details?id=mariusbinary.cursorr).
 3. Make sure your pc and phone are connected to the same wifi network.
 4. Start the server on your pc.
