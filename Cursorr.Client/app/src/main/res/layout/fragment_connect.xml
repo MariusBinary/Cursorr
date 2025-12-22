@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ConnectionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/dipdip"
+            android:orientation="vertical"
+            android:background="@drawable/btn_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:background="@color/appHighlight">
+
+                <android.widget.ImageButton
+                    android:id="@+id/button_info"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round_selector"
+                    android:elevation="5dp"
+                    android:src="@drawable/round_info_24"
+                    android:tint="@color/appForegroundLight"
+                    android:contentDescription="Help"/>
+
+                <ImageView
+                    android:id="@+id/device_conn_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:layout_toStartOf="@id/button_settings"
+                    android:layout_toEndOf="@id/button_info"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:src="@drawable/logo_256px" />
+
+                <android.widget.ImageButton
+                    android:id="@+id/button_settings"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round_selector"
+                    android:elevation="5dp"
+                    android:src="@drawable/ic_settings"
+                    android:tint="@color/appForegroundLight"
+                    android:contentDescription="Settings"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/device_stat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/device_conn_2"
+                android:background="@color/appSecondary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Select a device to connect"
+                android:textAlignment="center"
+                android:textColor="@color/appForegroundLight"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btn_connect"
+            android:layout_below="@id/dipdip"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:divider="@color/itemDeviceDivider"
+            android:dividerHeight="1dp"
+            android:stackFromBottom="true" />
+
+        <android.widget.Button
+            android:id="@+id/btn_connect"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_btn"
+            android:text="Not found? Add it manually"
+            android:textAllCaps="false"
+            android:textColor="@color/itemDeviceAdd" />
+    </RelativeLayout>
+</FrameLayout>

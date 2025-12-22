@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/pref_group_connection">
+        <EditTextPreference
+            android:key="device_name"
+            android:title="@string/pref_title_device_name"
+            android:summary="@string/pref_summary_device_name"/>
+        <SwitchPreference
+            android:key="broadcast_scan"
+            android:title="@string/pref_title_broadcast_scan"
+            android:summary="@string/pref_summary_broadcast_scan"
+            android:defaultValue="true">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_group_mouse">
+        <ListPreference
+            android:key="startup_mouse_type"
+            android:title="@string/pref_title_startup_mouse_type"
+            android:summary="@string/pref_summary_startup_mouse_type"
+            android:entries="@array/listStartupMouse"
+            android:entryValues="@array/dataStartupMouse"
+            android:defaultValue="2d_mouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <mariusbinary.cursorr.controls.seekbar.SeekBarPreference
+            android:key="sensitivity_3D"
+            android:defaultValue="5.0"
+            android:title="@string/pref_title_3d_mouse_sensibility"
+            android:summary="@string/pref_summary_3d_mouse_sensibility" />
+
+        <mariusbinary.cursorr.controls.seekbar.SeekBarPreference
+            android:key="sensitivity_2D"
+            android:defaultValue="3.5"
+            android:title="@string/pref_title_2d_mouse_sensibility"
+            android:summary="@string/pref_summary_2d_mouse_sensibility" />
+
+        <mariusbinary.cursorr.controls.seekbar.SeekBarPreference
+            android:key="sensitivity_scroll"
+            android:defaultValue="4.0"
+            android:title="@string/pref_title_scroll_sensibility"
+            android:summary="@string/pref_summary_scroll_sensibility" />
+
+        <SwitchPreference
+            android:key="touchpad_trail"
+            android:title="@string/pref_title_touchpad_trail"
+            android:summary="@string/pref_summary_touchpad_trail"
+            android:defaultValue="true">
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:key="vibrate_on_press"
+            android:title="@string/pref_title_vibrate_on_press"
+            android:summary="@string/pref_summary_vibrate_on_press"
+            android:defaultValue="true">
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:key="recognize_gestures"
+            android:title="@string/pref_title_gesture_recognition"
+            android:summary="@string/pref_summary_gesture_recognition"
+            android:defaultValue="true">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_group_extra">
+        <SwitchPreference
+            android:key="volume_buttons"
+            android:title="@string/pref_title_volume_buttons"
+            android:summary="@string/pref_summary_volume_buttons"
+            android:defaultValue="false">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_group_theme">
+        <ListPreference
+            android:key="app_theme"
+            android:title="@string/pref_title_app_theme"
+            android:summary="@string/pref_summary_app_theme"
+            android:entries="@array/listAppThemes"
+            android:entryValues="@array/dataAppThemes"
+            android:defaultValue="system" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="group_premium"
+        android:title="@string/pref_group_premium">
+        <Preference
+            android:key="restore_premium"
+            android:persistent="false"
+            android:title="@string/pref_title_restore_premium"
+            android:summary="@string/pref_summary_restore_premium"/>
+        <Preference
+            android:key="buy_premium"
+            android:persistent="false"
+            android:title="@string/pref_title_buy_premium"
+            android:summary="@string/pref_summary_buy_premium"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="group_about"
+        android:title="@string/pref_group_about">
+        <Preference
+            android:key="app_version"
+            android:persistent="false"
+            android:title="@string/pref_title_app_version"
+            android:summary="@string/pref_summary_app_version"/>
+        <Preference
+            android:key="app_license"
+            android:persistent="false"
+            android:title="@string/pref_title_app_license"
+            android:summary="@string/pref_app_license_free"/>
+        <Preference
+            android:key="developer"
+            android:persistent="false"
+            android:title="@string/pref_title_developer"
+            android:summary="@string/pref_summary_developer"/>
+        <Preference
+            android:key="app_support"
+            android:persistent="false"
+            android:title="@string/pref_title_developer_email"
+            android:summary="@string/pref_summary_developer_email"/>
+        <Preference
+            android:key="app_website"
+            android:persistent="false"
+            android:title="@string/pref_title_developer_website"
+            android:summary="@string/pref_summary_developer_website"/>
+    </PreferenceCategory>
+</PreferenceScreen>

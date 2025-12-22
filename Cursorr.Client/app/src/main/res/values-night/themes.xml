@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="Theme.MagicMouse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">@drawable/starting_screen</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/appHighlight</item>
+        <item name="colorPrimaryVariant">@color/appHighlight</item>
+        <item name="colorOnPrimary">@color/appHighlight</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/appHighlight</item>
+        <item name="colorSecondaryVariant">@color/appHighlight</item>
+        <item name="colorOnSecondary">@color/appHighlight</item>
+
+        <!-- Status bar color. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/appHighlight</item>
+    </style>
+
+</resources>

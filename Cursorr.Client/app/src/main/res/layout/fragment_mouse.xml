@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context=".fragments.MouseFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@color/appHighlight">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navbar_mask"
+                    android:orientation="horizontal"
+                    android:translationZ="1dp"
+                    tools:context="project.android.TouchpadFragment">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_marginBottom="0dp"
+                        tools:context="project.android.TouchpadFragment">
+
+                        <android.widget.ImageButton
+                            android:id="@+id/button_back"
+                            android:layout_width="56dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/round_selector"
+                            android:elevation="5dp"
+                            android:src="@drawable/round_arrow_back_24"></android.widget.ImageButton>
+
+                        <android.widget.ImageButton
+                            android:id="@+id/button_settings"
+                            android:layout_width="56dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/round_selector"
+                            android:elevation="5dp"
+                            android:src="@drawable/ic_settings"></android.widget.ImageButton>
+                    </RelativeLayout>
+
+                    <android.widget.ImageButton
+                        android:id="@+id/button_mode"
+                        android:layout_width="72dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/round_selector"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_mouse_2d"></android.widget.ImageButton>
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <mariusbinary.cursorr.controls.Touchpad
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:id="@+id/touchpad"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="40dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal"
+                    tools:context="project.android.TouchpadFragment">
+
+                    <android.widget.Button
+                        android:id="@+id/button_touch_left"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/button_style"
+                        android:elevation="5dp" />
+
+                    <android.widget.Button
+                        android:id="@+id/button_touch_middle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="0.4"
+                        android:background="@drawable/button_style"
+                        android:elevation="5dp" />
+
+                    <android.widget.Button
+                        android:id="@+id/button_touch_right"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/button_style"
+                        android:elevation="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

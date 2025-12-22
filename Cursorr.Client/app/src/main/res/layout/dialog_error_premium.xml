@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/img_error"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/layout_device_round"
+            android:backgroundTint="#4CD95E54"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:src="@drawable/sharp_error_24" />
+
+        <TextView
+            android:id="@+id/premium_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_error"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/premium_error"
+            android:textColor="@color/appForeground" />
+
+        <View
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/premium_description2"
+            android:background="@color/itemDeviceDividerDark" />
+
+        <TextView
+            android:id="@+id/premium_description3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/premium_support"
+            android:textColor="#D95E54"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

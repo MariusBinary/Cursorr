@@ -1,0 +1,26 @@
+<resources>
+
+    <string-array name="listStartupMouse">
+        <item>Gyroscopic mouse (3D)</item>
+        <item>Touchpad (2D)</item>
+        <item>The last used</item>
+    </string-array>
+
+    <string-array name="dataStartupMouse">
+        <item>3d_mouse</item>
+        <item>2d_mouse</item>
+        <item>last_used</item>
+    </string-array>
+
+    <string-array name="listAppThemes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Follow the system</item>
+    </string-array>
+
+    <string-array name="dataAppThemes">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+</resources>

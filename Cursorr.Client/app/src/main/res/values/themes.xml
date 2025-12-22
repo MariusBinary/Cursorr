@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="Theme.MagicMouse" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">@drawable/starting_screen</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/appHighlight</item>
+        <item name="colorPrimaryVariant">@color/appHighlight</item>
+        <item name="colorOnPrimary">@color/appHighlight</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/appHighlight</item>
+        <item name="colorSecondaryVariant">@color/appHighlight</item>
+        <item name="colorOnSecondary">@color/appHighlight</item>
+
+        <!-- Status bar color. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/appHighlight</item>
+    </style>
+
+    <style name="OverFlowButton">
+        <item name="srcCompat">@drawable/ic_settings</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/roundSelector</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+</resources>

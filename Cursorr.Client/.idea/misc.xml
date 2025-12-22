@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/drawable/btn_btn.xml" value="0.4777777777777778" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/drawable/help_background_1.xml" value="0.4777777777777778" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/drawable/ic_purchase_error.xml" value="0.4777777777777778" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/drawable/premium_card.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/drawable/sharp_check_circle_24.xml" value="0.34010416666666665" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/drawable/sharp_error_24.xml" value="0.4777777777777778" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/activity_main.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/activity_settings.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/activity_welcome.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/content_main.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/content_settings.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_connecting.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_create_device.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_error_premium.xml" value="0.4804270462633452" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_go_premium.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_ok_premium.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_premium.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/dialog_rename_device.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/fragment_connect.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/fragment_mouse.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/fragment_slider_item.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/fragment_welcome.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/layout/item_device.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/Cursorr/app/src/main/res/xml/preferences.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/button_nav_style.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_Devices.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_announcement_black_24dp.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_devices.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_mouse_3d.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_rotation_3d.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_settings.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/ic_wifi_tethering_black_24dp.xml" value="0.5" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable-v24/outline_more_vert_24.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/btn_btn.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/button_nav_style.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/button_nav_style_tr.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/button_nav_style_tr_1.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/button_nav_tr_style.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/button_style.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/help_background_.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/help_background_1.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/help_background_2.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/help_background_3.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/help_background_4.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_announcement_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_arrow_downward_black_24dp.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_arrow_upward_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_detected_device.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_devices.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_expand_less_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_expand_more_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_keyboard_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_launcher_background.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_mouse_2d.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_mouse_3d.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_mouse_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_settings.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/ic_wifi_tethering_black_24dp.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/layout_device_round.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/list_selection.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/main_background.xml" value="0.5171875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/navbar_mask.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/outline_more_vert_24.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/premium_card.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/premium_feature_bg.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/rotation_3d.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/rotrot.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/round_arrow_back_24.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/round_favorite_24.xml" value="0.30364583333333334" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/round_info_20.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/round_info_24.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/round_selector.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/round_selector_mask.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/sharp_check_circle_24.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/slider_dot_selector.xml" value="0.46944444444444444" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/slider_selected_dot.xml" value="0.46944444444444444" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/slider_unselected_dot.xml" value="0.46944444444444444" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/square_selector.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/square_selector_mask.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/drawable/starting_screen.xml" value="0.2296875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/activity_in_app_billing.xml" value="0.6" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/activity_main.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/activity_mouse.xml" value="0.41040462427745666" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/activity_on_boarding.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/activity_settings.xml" value="0.39719202898550726" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/activity_super3_dsuper.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/content_main.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/content_settings.xml" value="0.39719202898550726" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/dialog_connecting.xml" value="0.3745471014492754" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/dialog_create_device.xml" value="0.3745471014492754" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/dialog_rename_device.xml" value="0.1" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_about.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_blank.xml" value="0.3378623188405797" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_connect.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_create_device.xml" value="0.3582427536231884" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_item_list.xml" value="0.34103260869565216" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.38179347826086957" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_item_list_dialog_list_dialog_item.xml" value="0.38179347826086957" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_loading.xml" value="0.3740942028985507" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_mouse.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/fragment_slider_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/item_device.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/loading_dialog.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/local_devices.xml" value="0.3446557971014493" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/sample_touchpad.xml" value="0.4461050724637681" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/sample_touchpad_track.xml" value="0.278125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/layout/test_test.xml" value="0.3745471014492754" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/menu/device_menu.xml" value="0.4921875" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.5048296898830706" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.303125" />
+        <entry key="..\:/Users/mcelc/AndroidStudioProjects/MagicMouse/app/src/main/res/xml/preferences.xml" value="0.39719202898550726" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4921875" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

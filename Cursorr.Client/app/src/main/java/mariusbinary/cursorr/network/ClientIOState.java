@@ -1,0 +1,13 @@
+package mariusbinary.cursorr.network;
+
+public enum ClientIOState {
+    CONNECTED,
+    WAITING,
+    DISCONNECTED_BY_USER,
+    DISCONNECTED_BY_SERVER,
+    DISCONNECTED_BY_TIMEOUT,
+    DISCONNECTED_BY_WAITING,
+    DISCONNECTED_BY_CANCEL,
+    DISCONNECTED_BY_REFUSE,
+    UNDEFINED,
+}

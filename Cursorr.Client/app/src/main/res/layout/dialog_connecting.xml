@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="42dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="16dp">
+
+    <mariusbinary.cursorr.controls.spinner.LoadingSpinner
+        android:id="@+id/loading"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/connectingTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Connecting to N/A"
+        android:textColor="@color/appForeground"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@id/loading"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

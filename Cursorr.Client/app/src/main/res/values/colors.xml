@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- application -->
+    <color name="appBackground">#FEFEFE</color>
+    <color name="appForeground">#000000</color>
+    <color name="appForegroundInverted">#ffffff</color>
+    <color name="appForegroundLight">#ffffff</color>
+    <color name="appHighlight">#F7971E</color>
+    <color name="appSecondary">#C97904</color>
+
+    <!-- connection item -->
+    <color name="itemDeviceOnline">#4DCC88</color>
+    <color name="itemDeviceOffline">#ACABB1</color>
+    <color name="itemDeviceIconBg">#D9D8DE</color>
+    <color name="itemDeviceDivider">#D9D9D9</color>
+    <color name="itemDeviceDividerDark">#C5C5C5</color>
+    <color name="itemDeviceAdd">#FF5722</color>
+
+    <!-- mouse bottom buttons -->
+    <color name="mouseButtonRipple">#FF5722</color>
+    <color name="mouseButtonBgStart">#F7971E</color>
+    <color name="mouseButtonBgEnd">#D3831E</color>
+
+    <!-- mouse touchpad control -->
+    <color name="mouseTouchpadBg">#f1f1f1</color>
+    <color name="mouseTouchpadScrollInactive">#808080</color>
+    <color name="mouseTouchpadScrollActive">#D3831E</color>
+    <color name="mouseTouchpadScrollThumb">#F7971E</color>
+    <color name="mouseTouchpadTouchBr">#808080</color>
+
+    <color name="premiumCardBg">#AAffffff</color>
+    <color name="premiumCardDivider">#AABEBEBE</color>
+
+</resources>

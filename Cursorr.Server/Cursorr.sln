@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31808.319
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cursorr", "Cursorr\Cursorr.csproj", "{8C1B0070-24DF-4613-B126-44A63B86E54A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cursorr", "Cursorr.csproj", "{8C1B0070-24DF-4613-B126-44A63B86E54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {28A1934D-4E60-4C8E-A5AD-ED887195F28D}
+		SolutionGuid = {CE09DE20-8BC5-436B-9FA0-EFF74E7FE2C7}
 	EndGlobalSection
 EndGlobal
